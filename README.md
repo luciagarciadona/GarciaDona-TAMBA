@@ -8,30 +8,26 @@ Somos TAMBA, un **equipo interdisciplinario** conformado por fotógrafos, diseñ
 
 ###### ¿Qué nos diferencia?
 Somos **la solución a tus ventas en un solo lugar**. Queremos hacer que tu proyecto crezca, cambiando el modo en el que te ven. Nos mueven las ganas de crear imágenes que compartan experiencias.
-######¿Qué servicios brindamos?
-:bulb: Creación de contenido para redes sociales
-:star: Community management
-:computer: Diseño gráfico
-:camera_flash: Fotografía de producto
-:movie_camera: Diseño y producción audiovisual
-:zap: Branding
+
+###### ¿Qué servicios brindamos?
+- :bulb: Creación de contenido para redes sociales
+- :star: Community management
+- :computer: Diseño gráfico
+- :camera_flash: Fotografía de producto
+- :movie_camera: Diseño y producción audiovisual
+- :zap: Branding
 
 ## Público objetivo
 - **Emprendedores** de cualquier género y rango etario de 30 a 65 años, que quieran potenciar su imagen y alcance en redes.
 - **Pymes** de cualquier parte del país, que quieran potenciar su imagen y alcance en redes.
 
 ## Familias tipográficas
-- [Gantari] (https://fonts.google.com/specimen/Gantari?category=Sans+Serif&preview.text=TAMBA&preview.text_type=custom#standard-styles)
-- [Oswald] (https://fonts.google.com/specimen/Oswald?category=Sans+Serif&preview.text=%26&preview.text_type=custom&query=oswald)
+La tipografía principal será [Gantari](https://fonts.google.com/specimen/Gantari?category=Sans+Serif&preview.text=TAMBA&preview.text_type=custom#standard-styles) y la secundaria [Oswald](https://fonts.google.com/specimen/Oswald?category=Sans+Serif&preview.text=%26&preview.text_type=custom&query=oswald).
 
 ## Paleta cromática
-- Blanco #ffffff
-- Gris #1e1e1e
-- Azul #1939ff
-- Naranja #f88808
+Blanco #ffffff | Gris #1e1e1e | Azul #1939ff | Naranja #f88808
 ![colores](./img/paleta_cromatica.jpg)
 
 
 ## Nuestras redes:
-- Encontranos en [Facebook] (https://www.facebook.com/tamba.socialmedia/) :thumbsup:
-- Visitá nuestro perfil de [Instagram] (https://www.instagram.com/tamba.socialmedia/) :camera_flash:
+Podés encontranos en [Facebook](https://www.facebook.com/tamba.socialmedia/) :thumbsup: o visitar nuestro perfil de [Instagram](https://www.instagram.com/tamba.socialmedia/) :camera_flash:
