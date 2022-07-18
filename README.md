@@ -22,7 +22,7 @@ Somos **la solución a tus ventas en un solo lugar**. Queremos hacer que tu proy
 - **Pymes** de cualquier parte del país, que quieran potenciar su imagen y alcance en redes.
 
 ## Familias tipográficas
-La tipografía principal será [Gantari](https://fonts.google.com/specimen/Gantari?category=Sans+Serif&preview.text=TAMBA&preview.text_type=custom#standard-styles) y la secundaria [Oswald](https://fonts.google.com/specimen/Oswald?category=Sans+Serif&preview.text=%26&preview.text_type=custom&query=oswald).
+La tipografía principal será [Gantari](https://fonts.google.com/specimen/Gantari?category=Sans+Serif&preview.text=TAMBA&preview.text_type=custom#standard-styles) y la secundaria [Aleo](https://fonts.google.com/specimen/Aleo?query=aleo&preview.text=%26%26%26%26%26&preview.text_type=custom).
 
 ## Paleta cromática
 Blanco #ffffff | Gris #1e1e1e | Azul #1939ff | Naranja #f88808
@@ -31,3 +31,6 @@ Blanco #ffffff | Gris #1e1e1e | Azul #1939ff | Naranja #f88808
 
 ## Nuestras redes:
 Podés encontranos en [Facebook](https://www.facebook.com/tamba.socialmedia/) :thumbsup: o visitar nuestro perfil de [Instagram](https://www.instagram.com/tamba.socialmedia/) :camera_flash:
+
+## Bocetado de Wireframe:
+Accedé al bocetado desde la plataforma [FIGMA]. (https://www.figma.com/file/8sMk8wZUtbaxZP35B7tEoU/TAMBA-WEB---ICARO-(sprint-2)?node-id=0%3A1)
