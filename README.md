@@ -33,4 +33,4 @@ Blanco #ffffff | Gris #1e1e1e | Azul #1939ff | Naranja #f88808
 Podés encontranos en [Facebook](https://www.facebook.com/tamba.socialmedia/) :thumbsup: o visitar nuestro perfil de [Instagram](https://www.instagram.com/tamba.socialmedia/) :camera_flash:
 
 ## Bocetado de Wireframe:
-Accedé al bocetado desde la plataforma [FIGMA]. (https://www.figma.com/file/8sMk8wZUtbaxZP35B7tEoU/TAMBA-WEB---ICARO-(sprint-2)?node-id=0%3A1)
+Bocetado en la plataforma FIGMA, ingresá haciendo click [acá](https://www.figma.com/file/8sMk8wZUtbaxZP35B7tEoU/TAMBA-WEB---ICARO-(sprint-2)?node-id=0%3A1)
