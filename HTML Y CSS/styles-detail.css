@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Gantari:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #DDDDDD;
+    font-family: "Gantari", sans-serif;
+}
+
+:root{
+    --myblue: #1E7BC1;
+    --myyellow: #F88808;
+    --lightgrey: #DDDDDD;
+    --hardgrey: #1e1e1e;
+}
+
+li, a, button {
+    font-family: "Gantari", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--hardgrey);
+    text-decoration: none; /*elimina el subrayado*/
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: flex-end; */
+    align-items: center;
+    padding: 30px 200px;
+    height: 100px;
+    background-color: var(--lightgrey);
+}
+
+.logo{
+    cursor: pointer;
+    /* margin-right: auto; */
+}
+
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.nav_links li a{
+    transition: all 0.3 ease 0s;
+}
+
+.nav_links li a:hover{
+    color: var(--myblue);
+}
+
+button{
+    color: #DDDDDD;
+    background-color: var(--myblue);
+    padding: 9px 30px;
+    border: none;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #185a8d;
+}
+
+
+.product-content {
+    padding: 0 200px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.product-content .product-text{
+    position: relative;
+    max-width: 500px;
+}
+
+.product-content .product-text .product-in-row{
+    display: flex;
+    position: relative;
+    align-items: baseline;
+    
+}
+
+.product-content .product-text .product-in-row img{
+    padding: 0 10px;
+    max-height: 30px;
+}
+
+.product-content .product-text .product-in-row h2{
+    font-size: 36px;
+}
+
+.product-content .product-text .product-in-row h4{
+    font-size: 24px;
+    color: var(--myyellow);
+}
+
+.product-content .product-text p {
+    padding: 10px 0;
+    line-height: 1.5;
+}
+
+.product-content .product-text button {
+    background-color: #1e1e1e;
+}
+
+.product-content .product-text .comprar button{
+    background-color: var(--myyellow);
+}
+
+
+.reccomend {
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px 0;
+    flex-wrap: wrap;
+}
+
+.reccomend button{
+    font-size: 12px;
+    border-radius: 20px;
+}
+
+
+
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: flex-end; */
+    align-items: center;
+    padding: 30px 200px;
+    height: 100px;
+    background-color: var(--hardgrey);
+}
+
+.f_links{
+    background-color: transparent;
+}
+
+.footer_links .footer_rrss{
+    list-style: none;
+    background-color: transparent;
+}
+
+ul, .footer_links{
+    background-color: transparent;
+}
+
+.footer_links li{
+    display: list-item;
+    list-style: none;
+    padding: 0 20px;
+    background-color: transparent;
+    text-align: center;
+}
+.footer_links li a{
+    background-color: transparent;
+    color: #fff
+}
+
+.footer_rrss li{
+    display: inline-block;
+    padding: 0 20px;
+    background-color: transparent;
+    list-style: none;
+}
+
+.footer_rrss li a
+{
+    background-color: transparent;
+}
+
+.footer_rrss li a img
+{
+    background-color: transparent;
+    max-width: 30px;
+}
+
+.logo{
+    background-color: transparent;
+}
+
+.logo li{
+    background-color: transparent;
+    color: #fff;
+    display: list-item;
+    list-style: none;
+    text-align: center;
+}
+
+.logo img{
+    background-color: transparent;
+}

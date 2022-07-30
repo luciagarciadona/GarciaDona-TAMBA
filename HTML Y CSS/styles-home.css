@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Gantari:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #DDDDDD;
+    font-family: "Gantari", sans-serif;
+}
+
+:root{
+    --myblue: #1E7BC1;
+    --myyellow: #F88808;
+    --lightgrey: #DDDDDD;
+    --hardgrey: #1e1e1e;
+}
+
+li, a, button {
+    font-family: "Gantari", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--hardgrey);
+    text-decoration: none; /*elimina el subrayado*/
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: flex-end; */
+    align-items: center;
+    padding: 30px 200px;
+    height: 100px;
+    background-color: var(--lightgrey);
+}
+
+.logo{
+    cursor: pointer;
+    /* margin-right: auto; */
+}
+
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.nav_links li a{
+    transition: all 0.3 ease 0s;
+}
+
+.nav_links li a:hover{
+    color: var(--myblue);
+}
+
+button{
+    color: #DDDDDD;
+    background-color: var(--myblue);
+    padding: 9px 30px;
+    border: none;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #185a8d;
+}
+
+.banner-content{
+    position: relative;
+    padding: 0 200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("./img/background.png");
+    height: 547px;
+    align-items: center;
+}
+
+.banner-content .text-box{
+    position: relative;
+    max-width: 500px;
+    background-color: transparent;
+}
+
+.banner-content .text-box h1{
+    color: #fff;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 0.9;
+    background-color: transparent;
+}
+
+.banner-content .text-box h1 span{
+    background-color: transparent;
+}
+
+.banner-content .text-box p{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1.2;
+    padding: 40px 0;
+    background-color: transparent;
+}
+
+.banner-content .text-box p span{
+    background-color: transparent;
+}
+
+.img-box{
+    background-color: transparent;
+}
+
+.img-box img{
+    background-color: transparent;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position:relative;
+    padding: 20px;
+    background-color:transparent
+
+}
+
+.container .box {
+    position: relative;
+    box-sizing: border-box;
+    width: 250px;
+    padding: 20px;
+    color: #fff;
+    background-color: transparent;
+    border-radius: 20px;  
+    overflow: hidden;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: flex-end; */
+    align-items: center;
+    padding: 30px 200px;
+    height: 100px;
+    background-color: var(--hardgrey);
+}
+
+.f_links{
+    background-color: transparent;
+}
+
+.footer_links .footer_rrss{
+    list-style: none;
+    background-color: transparent;
+}
+
+ul, .footer_links{
+    background-color: transparent;
+}
+
+.footer_links li{
+    display: list-item;
+    list-style: none;
+    padding: 0 20px;
+    background-color: transparent;
+    text-align: center;
+}
+.footer_links li a{
+    background-color: transparent;
+    color: #fff
+}
+
+.footer_rrss li{
+    display: inline-block;
+    padding: 0 20px;
+    background-color: transparent;
+    list-style: none;
+}
+
+.footer_rrss li a
+{
+    background-color: transparent;
+}
+
+.footer_rrss li a img
+{
+    background-color: transparent;
+    max-width: 30px;
+}
+
+.logo{
+    background-color: transparent;
+}
+
+.logo li{
+    background-color: transparent;
+    color: #fff;
+    display: list-item;
+    list-style: none;
+    text-align: center;
+}
+
+.logo img{
+    background-color: transparent;
+}
