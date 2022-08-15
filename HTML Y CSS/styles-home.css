@@ -84,7 +84,7 @@ header img {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    background-image: url("./img/background-extended.png");
+    background-image: url("./img/background-extended-.png");
 
     height: 547px;
     align-items: center;
@@ -350,7 +350,7 @@ footer .footer-box{
         flex-wrap: nowrap;
         justify-content: space-between;
         align-items: center;
-        background-image: url("./img/background-extended.png");
+        background-image: url("./img/background-extended-.png");
 
         height: 547px;
         align-items: center;
@@ -439,7 +439,7 @@ footer .footer-box{
         flex-wrap: wrap;
         align-items: center;
         justify-content: space-around;
-        background-image: url("./img/background-mobile.png");
+        background-image: url("./img/background-mobile-.png");
         background-repeat: no-repeat;
         background-size: cover;
         width: 480px;
