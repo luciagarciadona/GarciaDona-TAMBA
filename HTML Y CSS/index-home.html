@@ -15,11 +15,14 @@
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Servicios</a></li>
                 <li><a href="#">Quienes Somos</a></li>
-                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Portafolio</a></li>
                 <li><a href="#">Contacto</a></li>
             </ul>
         </nav>        
-        <a class="ingresar" href="#"><button>INGRESAR</button></a> 
+        <a class="ingresar" href="#"><button>INGRESAR</button></a>
+        <img src="img/user.png" alt="Usuario" class="user-icon" width="30px" height="30px">
+        <a href="#"><img src="img/shopping-cart.png" alt="Shopping Cart" width="30px" height="30px"></a>
+        <img src="img/menu.png" alt="Menu" class="menu-icon" width="30px" height="30px">         <!-- onclick="menutoggle()" -->
     </header>
 
 <main>
@@ -27,6 +30,7 @@
         <div class="banner-content">
             <div class="text-box">
                 <h1>Construimos <br>tu presencia<br><span style="color: #1e7bc1; font-family: 'Aleo', serif; font-style: italic;"> digital</h1>
+                    <!-- <img src="img/typing-bar.png" alt="Typing Bar" width="auto" height="55px">  agregar typing bar-->
                 <p>Desligate de las redes de tu negocio, <br> <span style="color: #fff; font-family: 'Gantari', sans-serif; font-weight: 700;">nosotros nos ocupamos por vos.</span></p>
             </div>
             
@@ -38,69 +42,133 @@
 
     <section>
         <div class="container">
-            <div class="box">
-                <div class="content">
-                    <h2><span>Activá</span> <br> tus <br> redes</h2>
-                </div>
-                <div class="icon"> <img src="img/flecha.png" alt="Icono de flecha"></div>
+            <div class="boxes">
+                <div class="box">
+                    <div class="content">
+                        <h2>
+                            <span style="color: #fff; font-family: 'Aleo', serif; font-style: italic;"> Activá</span> <br> tus <br> redes
+                        </h2>
+                    </div>
+                    <div class="icon">
+                        <img src="img/flecha.png" alt="Icono de flecha">
+                    </div>
 
-            </div>
-            <div class="box">
-                <div class="icon-pack"> <img src="img/estrella-01.png" alt="Icono de Pack Básico"></div>
-                <div class="content-pack">
-                    <h3>Pack <br> <span>Básico</span></h3>
-                    <p>Calendarización del contenido <br> 4 publicaciones mensuales <br> 3 historias semanales <br> 1 sesion fotográfica bimestral <br>
-                    </p>
-                    <a class="price" href="#"><button class="button-price">$15.500</button></a>
-                    <a class="info" href="#"><button class="button-info">MAS INFO</button></a>
                 </div>
-            </div>
 
-            <div class="box">
-                <div class="icon-pack"> <img src="img/estrella-02.png" alt="Icono de Pack Medio"></div>
-                <div class="content-pack">
-                    <h3>Pack <br> <span>Medio</span></h3>
-                    <p>Calendarización del contenido <br> 4 publicaciones mensuales <br> 3 historias semanales <br> 1 sesion fotográfica mensual <br> Respuesta de mensajes y comentarios
-                    </p>
-                    <a class="price" href="#"><button class="button-price">$21.800</button></a>
-                    <a class="info" href="#"><button class="button-info">MAS INFO</button></a>
+                
+                <div class="pack-box">
+                    <div class="icon-pack">
+                        <h3><span style="font-weight:400">Pack</span> <br> <span>Básico</span></h3>
+                        <img src="img/estrella-01.png" alt="Icono de Pack Básico">
+                    </div>
+                    <div class="content-pack">
+                            <ul class="pack_1">
+                                <li>Calendarización del contenido</li>
+                                <li>4 publicaciones mensuales</li>
+                                <li>3 historias semanales</li>
+                                <li>1 sesion fotográfica bimestral</li>
+                            </ul>
+                        <div class="buttons">
+                            <div class="buttons1">
+                                <a class="price" href="#"><button class="button-price">$15.500</button></a>
+                                <a class="info" href="#"><button class="button-info">MAS INFO</button></a>
+                           </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
 
-            <div class="box">
-                <div class="icon-pack"> <img src="img/estrella-03.png" alt="Icono de Pack Premium"></div>
-                <div class="content-pack">
-                    <h3>Pack <br> <span>Premium</span></h3>
-                    <p>Calendarización del contenido <br> 4 publicaciones mensuales <br> 3 historias semanales <br> 1 sesion fotográfica mensual <br> Respuesta de mensajes y comentarios <br> Gestión de publicidad
-                    </p>
-                    <a class="price" href="#"><button class="button-price">$28.700</button></a>
-                    <a class="info" href="#"><button class="button-info">MAS INFO</button></a>
+                <div class="pack-box">
+                    <div class="icon-pack">
+                        <h3><span style="font-weight:400">Pack</span> <br> <span>Medio</span></h3>
+                        <img src="img/estrella-02.png" alt="Icono de Pack Medio">
+                    </div>
+                    <div class="content-pack">
+                            <ul class="pack_2">
+                                <li>Calendarización del contenido</li>
+                                <li>6 publicaciones mensuales</li>
+                                <li>4 historias semanales</li>
+                                <li>1 sesion fotográfica mensual</li>
+                                <li>Respuesta a mensajes y comentarios</li>
+                            </ul>
+                        <div class="buttons">
+                            <div class="buttons2">
+                                <a class="price" href="#"><button class="button-price">$21.800</button></a>
+                                <a class="info" href="#"><button class="button-info">MAS INFO</button></a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
+
+                <div class="pack-box">
+                    <div class="icon-pack">
+                        <h3><span style="font-weight:400">Pack</span> <br> <span>Premium</span></h3>
+                        <img src="img/estrella-03.png" alt="Icono de Pack Premium">
+                    </div>
+                    <div class="content-pack">
+                            <ul class="pack_3">
+                                <li>Calendarización del contenido</li>
+                                <li>6 publicaciones mensuales</li>
+                                <li>6 historias semanales</li>
+                                <li>1 sesion fotográfica mensual</li>
+                                <li>Respuesta a mensajes y comentarios</li>
+                                <li>Gestión de publicidad</li>
+                            </ul>
+                        <div class="buttons">
+                            <div class="buttons3">
+                                <a class="price" href="#"><button class="button-price">$28.700</button></a>
+                                <a class="info" href="#"><button class="button-info">MAS INFO</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
             </div>
         </div>
     </section>
 </main>
 
+
 <footer>
-    <div class="f_links">
-        <ul class="footer_links">
-            <li><a href="#">Servicios</a></li>
-            <li><a href="#">Contacto</a></li>
-            <li><a href="#">Nuestros trabajos</a></li>
+    <div class="footer-box">
+        <div class="f_links">
+            <ul class="footer_links">
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="#">Nuestros trabajos</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-logo">
+            <li><img src="img/logo_w.png" alt="logo"></li>
+            <li>TAMBA®  2022 | Todos los derechos reservados.</li>
+        </div> 
+
+        <ul class="footer_rrss">
+            <li><a href="#"> <img src="img/fb.png" alt="Facebook"></a></li>
+            <li><a href="#"> <img src="img/ig.png" alt="Facebook"></a></li>
         </ul>
     </div>
-
-    <div class="logo">
-        <li><img src="img/logo_w.png" alt="logo"></li>
-        <li>Todos los derechos reservados.</li>
-    </div> 
-
-    <ul class="footer_rrss">
-        <li><a href="#"> <img src="img/fb.png" alt="Facebook"></a></li>
-        <li><a href="#"> <img src="img/ig.png" alt="Facebook"></a></li>
-    </ul>
-
 </footer>
+
+<!-- js para burger menu -->
+<!-- <script>
+    var nav_links = document.getElementById("nav_links");
+
+    nav_links.style.maxHeight = "0px";
+
+    function menutoggle() {
+        if (nav_links.style.maxHeight = "0px")
+        {
+            nav_links.style.maxHeight = "200px";
+        }
+        else
+        {
+            nav_links.style.maxHeight = "0px";
+        }
+    }
+</script> -->
 
 </body>
 </html>
